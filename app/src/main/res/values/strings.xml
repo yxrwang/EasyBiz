@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EasyBiz</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="font_awesome">fonts/fa-light-300.ttf</string>
+    <string name="font_bold">fonts/Roboto-Bold.ttf</string>
+    <string name="font_italic">fonts/Roboto-Italic.ttf</string>
+    <string name="font_light">fonts/Roboto-Light.ttf</string>
+    <string name="font_regular">fonts/Roboto-Regular.ttf</string>
+    <string name="default_font">fonts/Roboto-Light.ttf</string>
+    <string name="draw_open">menu open</string>
+    <string name="draw_close">menu close</string>
+    <string name="home">Home</string>
+    <string name="search">Find a Business Location</string>
+    <string name="rent_right">Rent Right</string>
+    <string name="license_and_permit">License and Permit</string>
+    <string name="legal_advice">Legal Advice</string>
+    <string name="dispute_resolution">Dispute Resolution</string>
+    <string name="guest">Guest</string>
+    <string name="type_of_biz">Type of Your Business</string>
+    <string name="propose_area">Proposed area</string>
+    <string name="budget">Budget of your business</string>
+    <string name="get_my_location">Get my business location</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="start_business">Start your business journey</string>
+    <string name="get_start">Get Started</string>
+    <string name="cancel">Cancel</string>
+    <string name="get_bar_and_pub">Getting hospitality business</string>
+    <string name="get_pred_flow">Getting Pedestrian Volume data</string>
+    <string name="get_best_location">Getting the best business location for you</string>
+</resources>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:eb="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:padding="8dp">
+
+            <com.arvis.easybiz.android.view.FontedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_guest"
+                eb:textFont="@string/font_awesome"
+                android:textSize="40sp"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/guest_icon"
+                android:textColor="@android:color/white"/>
+
+            <com.arvis.easybiz.android.view.FontedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guest"
+                android:textColor="@android:color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/guest_icon"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white"/>
+
+        <com.arvis.easybiz.android.view.FontedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/home"
+            android:gravity="center_vertical"
+            android:padding="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <com.arvis.easybiz.android.view.FontedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_search"
+                eb:textFont="@string/font_awesome"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"/>
+
+            <com.arvis.easybiz.android.view.FontedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search"
+                android:layout_marginLeft="4dp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+           android:padding="8dp">
+
+           <com.arvis.easybiz.android.view.FontedTextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/icon_rent_right"
+               android:textSize="24sp"
+               eb:textFont="@string/font_awesome"
+               android:textColor="@android:color/white"/>
+
+           <com.arvis.easybiz.android.view.FontedTextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="4dp"
+               android:text="@string/rent_right"
+               android:textColor="@android:color/white"/>
+
+       </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <com.arvis.easybiz.android.view.FontedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_license"
+                android:textSize="24sp"
+                eb:textFont="@string/font_awesome"
+                android:textColor="@android:color/white"/>
+
+            <com.arvis.easybiz.android.view.FontedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/license_and_permit"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <com.arvis.easybiz.android.view.FontedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_legal_advice"
+                android:textSize="24sp"
+                eb:textFont="@string/font_awesome"
+                android:textColor="@android:color/white"/>
+
+            <com.arvis.easybiz.android.view.FontedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/legal_advice"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <com.arvis.easybiz.android.view.FontedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_dispute"
+                android:textSize="24sp"
+                eb:textFont="@string/font_awesome"
+                android:textColor="@android:color/white"/>
+
+            <com.arvis.easybiz.android.view.FontedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/dispute_resolution"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white"/>
+    </LinearLayout>
+
+</ScrollView>

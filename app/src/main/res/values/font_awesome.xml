@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon_home">\uf015</string>
+    <string name="icon_search">\uf002</string>
+    <string name="icon_rent_right">\uf573</string>
+    <string name="icon_license">\uf2c2</string>
+    <string name="icon_legal_advice">\uf24e</string>
+    <string name="icon_dispute">\uf2b5</string>
+    <string name="icon_guest">\uf2bd</string>
+</resources>

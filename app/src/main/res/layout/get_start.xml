@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:eb="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_bg"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app_icon"
+        android:layout_margin="24dp"
+        android:id="@+id/icon"/>
+
+
+    <com.arvis.easybiz.android.view.FontedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:textColor="@android:color/white"
+        android:text="@string/start_business"
+        android:textSize="24sp"
+        eb:textFont="@string/font_bold"
+        android:layout_below="@+id/icon"/>
+
+    <com.arvis.easybiz.android.view.FontedButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_start"
+        android:textColor="@android:color/white"
+        android:text="@string/get_start"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
